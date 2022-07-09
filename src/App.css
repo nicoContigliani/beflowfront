@@ -1,3 +1,49 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(255,255,255);
+  }
+  .center{
+    margin-left:-9%;
+  }
+  .Headers{
+    background-color: rgb(226,51,54);
+    margin-bottom: 2%;
+  }
+  input {
+    border: 2px solid currentcolor;
+    border-radius: 1%;
+  }
+  input:invalid {
+    border: 2px solid red;
+  }
+  
+  input:invalid:focus {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.193), rgb(247, 134, 134),rgb(238, 144, 144));
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: rgb(255,255,255);
+  }
+  .center{
+    margin-left:-3%;
+    width: 103%;
+    border-radius: 2%;
+    opacity: 0.9;
+  }
+  .Headers{
+    background-color: rgb(226,51,54);
+    margin-bottom: 2%;
+  }
+}
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +82,4 @@
     transform: rotate(360deg);
   }
 }
+

@@ -1,0 +1,611 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": -3,
+    "zoomLevel": 0.9,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "puestos",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "serial",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "513374fb-5bf8-4459-a546-b99073e280eb"
+          },
+          {
+            "name": "puesto",
+            "comment": "",
+            "dataType": "varchar",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "47ba3a21-a585-4e2d-a579-ae00bc44b7fc"
+          },
+          {
+            "name": "activo",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "45894d73-c6ff-41a4-855b-648400318c00"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 55.4999,
+          "top": 456.3331,
+          "zIndex": 291,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "c7aca007-2e53-4f5c-9743-d43388714b0e"
+      },
+      {
+        "name": "localidades",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "serial",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9f94fd9b-bd8f-454d-8644-5cbd0760d29a"
+          },
+          {
+            "name": "puesto",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "88c316d5-c73b-4f50-a129-28fc4490e9e8"
+          },
+          {
+            "name": "activo",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "03d8bfa2-b720-47dd-9554-59f03ef3244a"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 592.667,
+          "top": 450.1111,
+          "zIndex": 303,
+          "widthName": 67.04443359375,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "10dd8395-e44e-4f18-8de2-63d0df093fb3"
+      },
+      {
+        "name": "departamentos",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "serial",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6c5cfadf-32b1-471e-8d6c-f74f397c22c4"
+          },
+          {
+            "name": "denominacion",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 82.9453125,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "55217b18-de58-4b2c-9d6d-6a27a57bacf2"
+          },
+          {
+            "name": "localidad_id",
+            "comment": "",
+            "dataType": "serial",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 70.66259765625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "320fab05-897e-41a1-a07c-c737382fec85"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 581.9992,
+          "top": 68.9999,
+          "zIndex": 304,
+          "widthName": 88.7216796875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "0cbcab29-4bea-44a7-942b-25fb1d9762ac"
+      },
+      {
+        "name": "empleados",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "serial",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "2c3df60c-a0d1-49e3-a6e7-36e76d6423e5"
+          },
+          {
+            "name": "apellido",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "2b210a6b-72a0-4820-a09d-d4d619e1ea36"
+          },
+          {
+            "name": "comision",
+            "comment": "",
+            "dataType": "DOUBLE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "88530a35-d7b5-45b1-bd33-612008a8093e"
+          },
+          {
+            "name": "edad",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "aae006a9-770a-4604-a921-939f84795cc6"
+          },
+          {
+            "name": "fechaalta",
+            "comment": "",
+            "dataType": "date",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "849d13f8-d019-41d3-8df8-c0255aeb546c"
+          },
+          {
+            "name": "nombres",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "384bb154-f054-4d84-a208-e8e2c1aaffff"
+          },
+          {
+            "name": "sueldo",
+            "comment": "",
+            "dataType": "DOUBLE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1d493abf-e9c0-4afe-94b5-4f4db3ba1fed"
+          },
+          {
+            "name": "puesto_id",
+            "comment": "",
+            "dataType": "serial",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "dc39e463-a2c6-4089-8fb9-04e6d241aad8"
+          },
+          {
+            "name": "departamento_id",
+            "comment": "",
+            "dataType": "serial",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 99.56982421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "211b8157-1ed6-4a5b-8ffa-cc6322406bea"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 53.1109,
+          "top": 62.7778,
+          "zIndex": 305,
+          "widthName": 65.59716796875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "dbd95b25-fd5a-4d7f-8c17-d109c57153d4"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "c7aca007-2e53-4f5c-9743-d43388714b0e",
+          "columnIds": [
+            "513374fb-5bf8-4459-a546-b99073e280eb"
+          ],
+          "x": 228.9999,
+          "y": 456.3331,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "dbd95b25-fd5a-4d7f-8c17-d109c57153d4",
+          "columnIds": [
+            "dc39e463-a2c6-4089-8fb9-04e6d241aad8"
+          ],
+          "x": 248.69610507812502,
+          "y": 316.2778,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_puestos_to_empleados",
+        "visible": true,
+        "id": "12604c70-a8dd-4f90-820a-ebd0876a4f18"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "0cbcab29-4bea-44a7-942b-25fb1d9762ac",
+          "columnIds": [
+            "6c5cfadf-32b1-471e-8d6c-f74f397c22c4"
+          ],
+          "x": 581.9992,
+          "y": 134.2499,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "dbd95b25-fd5a-4d7f-8c17-d109c57153d4",
+          "columnIds": [
+            "211b8157-1ed6-4a5b-8ffa-cc6322406bea"
+          ],
+          "x": 444.28131015625,
+          "y": 189.5278,
+          "direction": "right"
+        },
+        "constraintName": "fk_departamentos_to_empleados",
+        "visible": true,
+        "id": "c51767b0-8111-4a20-96a0-5c36a559e729"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "10dd8395-e44e-4f18-8de2-63d0df093fb3",
+          "columnIds": [
+            "9f94fd9b-bd8f-454d-8644-5cbd0760d29a"
+          ],
+          "x": 768.46729296875,
+          "y": 450.1111,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "0cbcab29-4bea-44a7-942b-25fb1d9762ac",
+          "columnIds": [
+            "320fab05-897e-41a1-a07c-c737382fec85"
+          ],
+          "x": 769.27214921875,
+          "y": 199.4999,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_localidades_to_departamentos",
+        "visible": true,
+        "id": "47e40c2d-1152-4e23-9a37-ecf548b77eaa"
+      }
+    ]
+  }
+}
