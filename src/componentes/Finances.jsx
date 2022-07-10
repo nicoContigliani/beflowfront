@@ -32,16 +32,11 @@ const Finances = () => {
         getData()
     }, [])
     const x = Object.entries(dataFinances).length === 0; // true
-
     return (
         <div>
-            hoola <br />
-
             {
                 (x === true) ? (<ClipLoader color={color} loading={loading} cssOverride={override} size={300} />) : (<Esturcurre forCard={dataFinances} />)
             }
-
-
         </div>
     )
 }
