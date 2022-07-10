@@ -1,18 +1,18 @@
-import './App.css';
-import { Provider } from 'react-redux';
-import generateStore from './redux/Store';
-import ProductsList from './components/ProductsList'
-import Headers from './components/Headers';
+import react from "react";
+import Finances from "./componentes/Finances";
+import { Provider } from 'react-redux'
+import generateStore from "./redux/Store";
+
+
 function App() {
   const store = generateStore();
-
   return (
-    <Provider store={store}>
-      <div >
-        <Headers />
-        <ProductsList />
-      </div>
-    </Provider>
+    <div  className="container">
+      <Provider store={store}>
+        <Finances />
+      </Provider>
+
+    </div>
   );
 }
 
