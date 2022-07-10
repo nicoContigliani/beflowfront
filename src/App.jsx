@@ -7,8 +7,10 @@ import generateStore from "./redux/Store";
 function App() {
   const store = generateStore();
   return (
-    <div  className="container">
+    <div className="container">
       <Provider store={store}>
+
+        finances
         <Finances />
       </Provider>
 
