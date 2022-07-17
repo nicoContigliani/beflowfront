@@ -55,3 +55,10 @@ code {
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .mainItems {
+    grid-template-columns: auto;
+  }
+}
+.container { width: 1000px; } .max-min { max-width: 150px; min-width: 75px; }

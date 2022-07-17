@@ -26,17 +26,11 @@ export default function financesReducer(state = dataInicial, action) {
 }
 
 //acciones
-export const obtenerPokemonesAccion = () => async (dispatch, getState) => {
-    // console.log('getState', getState().pokemones.offset)
-    // const offset = getState().pokemones.offset
-    // const limit = getState().pokemones.limit
+export const obtenerDataAccion = () => async (dispatch, getState) => {
+
 
     try {
-        // const res = await axios.get(`https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`)
         const res = await axios.get(`https://mindicador.cl/api`)
-
-    
-
         dispatch({
             type: GET_DATA,
             // payload: res.data.results

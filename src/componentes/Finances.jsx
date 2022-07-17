@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { obtenerPokemonesAccion } from '../redux/FinancesDucks';
+import { obtenerDataAccion } from '../redux/FinancesDucks';
 import datas from '../Helpers/data.json'
 import Esturcurre from '../Helpers/Esturcurre';
 import axios from 'axios';
@@ -23,7 +23,7 @@ const Finances = () => {
 
 
     const dispatch = useDispatch()
-    const getData = () => { dispatch(obtenerPokemonesAccion()) }
+    const getData = () => { dispatch(obtenerDataAccion()) }
 
     const dataFinances = useSelector(store => store.finances.array)
     const [data, setData] = useState(datas)
