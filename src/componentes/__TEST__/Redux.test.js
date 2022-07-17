@@ -21,7 +21,7 @@ describe('Redux Ducks',() => {
          const result =financesReducer(state, action);
         expect(result).toBeInstanceOf(Object)
       })
-      it('return not Arrray', () => {
+      it('return not Array', () => {
         const type='GET_DATA';
         const action={type};
         const state =dataInicial

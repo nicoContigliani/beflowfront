@@ -11,7 +11,7 @@ const Esturcurre = ({ forCard }) => {
 
     console.log(forCard);
     return (
-        <div>
+        <div id="estructure">
             {
                 <ul class="flex-container">
                     {result.map(item => (
